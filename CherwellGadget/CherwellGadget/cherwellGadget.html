@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script type="text/javascript" src="Sys/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="Sys/finesse.js"></script>
+		<script type="text/javascript" src="index.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			gadgets.HubSettings.onConnect = function () {
+				finesse.modules.Cherwell.init();
+			};
+		</script>
+	</body>
+</html>

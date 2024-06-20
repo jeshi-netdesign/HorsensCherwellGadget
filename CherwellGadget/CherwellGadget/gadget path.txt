@@ -1,0 +1,1 @@
+<gadget hidden="true">https:{hosturl}/Cherwell/cherwellGadget.xml</gadget>
